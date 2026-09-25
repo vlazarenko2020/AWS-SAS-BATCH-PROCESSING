@@ -1,0 +1,22 @@
+# Real secret values - never commit
+AWS_KEY/.env-*
+**/autoexec.sas
+
+# Runtime logs
+log-*/
+
+# uv-managed virtualenv (recreated via `uv sync`)
+.venv/
+
+# Compiled Python bytecode
+__pycache__/
+*.pyc
+
+# Machine-specific symlink to the folder emulating the real SAS-server PROD
+# data dir (recreated/verified by DEPLOYMENT.sh)
+/sas01_sasdata_PROD_S3_Bucket_processing
+**/development_test_progs/log/
+
+# Local-only notes (not for the public repo)
+_CHANGES-ONE-BY-ONE/
+PROJECT_EARLY_HISTORY.md

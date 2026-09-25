@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(AWS_KEY/.env-EMSERVICEUSER)",
+      "Edit(AWS_KEY/.env-EMSERVICEUSER)",
+      "Write(AWS_KEY/.env-EMSERVICEUSER)"
+    ]
+  }
+}

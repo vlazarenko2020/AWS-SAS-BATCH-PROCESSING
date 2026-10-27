@@ -3,9 +3,6 @@
 # python - Boto3 S3, sort bucket by last modified - Stack Overflow
 # https://stackoverflow.com/questions/44574548/boto3-s3-sort-bucket-by-last-modified
 
-# Move and Rename objects within an S3 Bucket using Boto 3 | by Gregory Sánchez | plusteam | Medium
-# https://medium.com/plusteam/move-and-rename-objects-within-an-s3-bucket-using-boto-3-58b164790b78
-
 # How to Rename Amazon S3 Folder Objects with Python
 # https://adamtheautomator.com/s3-rename-folder/
 

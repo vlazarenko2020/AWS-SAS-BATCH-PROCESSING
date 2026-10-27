@@ -41,7 +41,7 @@ def f_run_different_logic_after_run_any_sas(f_folder_with_flag_file,
     # ------------------------------------------------------------------------------------------
     # -- NEED TO COMPRESS .PRD FILES -- IF .PRD FILES LIST WAS PASSED TO THE CLASS
     # -- SOME .sas PROGRAMS CAN BE EXECUTED WITHOUT .PRD FILE(S). SO THERE WILL BE NOTHING TO COMPRESS AND MOVE
-    # -- ALSO IF THERE WERE ERRORS IN SAS .log FILE -- PERNELL WILL RE-SUBMIT .FLAG FILE AND NOT .PRD FILE -- SO .PRD FILES HAVE TO BE LEFT IN THEIR ORIGINAL LOCATION
+    # -- ALSO IF THERE WERE ERRORS IN SAS .log FILE -- THE OPERATOR WILL RE-SUBMIT .FLAG FILE AND NOT .PRD FILE -- SO .PRD FILES HAVE TO BE LEFT IN THEIR ORIGINAL LOCATION
 
     # THERE ARE NO ERRORS IN SAS-LOG-FILE -- f_y_n_error_in_log = "SUCCESS"
     # THERE ARE    ERRORS IN SAS-LOG-FILE -- f_y_n_error_in_log = "ERROR"

@@ -442,8 +442,8 @@ class ClassSASProgram():
 
 #       # -- self.f_run_sas_program()
 #       # -- Need to know if completed with ERROR 
-#       # -- In case of error - Pernell need to re-run the .FLAG file without re-SFTP .PRD file
-#       # -- So the .PRD file has to be available for Pernell to re-run without re-sendind .PRD file(s)
+#       # -- In case of error - the operator needs to re-run the .FLAG file without re-SFTP .PRD file
+#       # -- So the .PRD file has to be available for the operator to re-run without re-sendind .PRD file(s)
 #       # -- 'ERROR'   - don't move/rename .PRD data file
 #       # -- 'SUCCESS' - move/rename .PRD data file
 #       # WILL CHECKED (INSIDE self.f_run_sas_program) IF SAS-LOG-FILE WAS CREATED

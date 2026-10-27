@@ -254,7 +254,7 @@ def main():
                 cur_date_time_str = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
                 # -- MOVE .FLAG FILE TO 1 OR 2 OR 3 OR 4 thread-FOLDER
-                # -- .PROD file ostaetsy t.k. Pernel programmi berut ego ottuda
+                # -- .PROD file ostaetsy t.k. programmi operatora berut ego ottuda
 
                 (prom_dir, current_flag_file_without_path) = os.path.split( current_flag_file_with_path  )
                 current_flag_file_with_thread_path = os.path.join(dir_thread_with_path,
@@ -306,7 +306,7 @@ def main():
             y_n_error_in_log = iClassSASProgram.f_run_sas_program()
             # ^^^^^^^^^^^
             # ^^^^^^^^^^^ -- Need to know if completed with ERROR because I need not to move/rename .PRD data file
-            # ^^^^^^^^^^^ -- Pernell need to re-run the .FLAG file without re-SFTP .PRD file
+            # ^^^^^^^^^^^ -- the operator needs to re-run the .FLAG file without re-SFTP .PRD file
             # ^^^^^^^^^^^ -- 'ERROR'   - don't move/rename .PRD data file
             # ^^^^^^^^^^^ -- 'SUCCESS' - move/rename .PRD data file
 

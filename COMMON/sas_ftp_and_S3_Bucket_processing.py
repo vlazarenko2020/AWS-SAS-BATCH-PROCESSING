@@ -254,7 +254,9 @@ def main():
                 cur_date_time_str = datetime.datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
 
                 # -- MOVE .FLAG FILE TO 1 OR 2 OR 3 OR 4 thread-FOLDER
-                # -- .PROD file ostaetsy t.k. programmi operatora berut ego ottuda
+                # -- Only the .FLAG file is moved into the thread folder. The .PRD data file
+                # -- stays in its original location because the .sas program reads it from there
+                # -- (and it's only backed up/compressed afterwards, on SAS-SUCCESS).
 
                 (prom_dir, current_flag_file_without_path) = os.path.split( current_flag_file_with_path  )
                 current_flag_file_with_thread_path = os.path.join(dir_thread_with_path,

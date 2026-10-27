@@ -104,7 +104,7 @@ l_prog_config = [
             'path_to_logfile':    '/sas01/sasdata/PROD/scoring/code_2_log',
             'path_to_sasfile':    '/sas01/sasdata/PROD/scoring/code_2',
             'compress':           True,
-            'path_to_ftp':        '/SAS/AWS/FTP/10.0.0.1-NYCIRC',
+            'path_to_ftp':        '/SAS/AWS/FTP/10.0.0.1-REMOTE',
             'path_to_aws_key':    '../AWS_KEY/EMSERVICEUSER',
             'mail': {
                 'SMTP': 'smtp.example.internal',
